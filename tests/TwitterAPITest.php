@@ -15,7 +15,7 @@ class TwitterAPITest extends TestCase
      */
     public function testNoConfigProvided()
     {
-        $this->expectException(new \naffiq\twitterapi\TwitterAPI([]));
+        new \naffiq\twitterapi\TwitterAPI([]);
     }
 
     public function testOriginalObjectCreated()

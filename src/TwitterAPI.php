@@ -119,7 +119,7 @@ class TwitterAPI extends Component
      * @param array $curlOptions
      * @return string
      */
-    public function performRequest($return = true, $curlOptions = [])
+    public function performRequest($return = true, $curlOptions = [ ])
     {
         return $this->twitterApiExchange->performRequest($return, $curlOptions);
     }
@@ -134,7 +134,7 @@ class TwitterAPI extends Component
      * @param array $curlOptions
      * @return string
      */
-    public function request($url, $method = 'get', $data = null, $curlOptions = [])
+    public function request($url, $method = 'get', $data = null, $curlOptions = [ ])
     {
         return $this->twitterApiExchange->request($url, $method, $data, $curlOptions);
     }
