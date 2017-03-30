@@ -1,0 +1,19 @@
+{
+    "name": "naffiq/yii2-twitter-api",
+    "description": "Yii2 component wrapper for J7mbo/twitter-api-php",
+    "type": "library",
+    "require": {
+        "yiisoft/yii2": "^2.0.0",
+        "j7mbo/twitter-api-php": "^1.0.0"
+    },
+    "require-dev": {
+        "codeception/codeception": "~2.2.10"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "naffiq",
+            "email": "abdu.galymzhan@gmail.com"
+        }
+    ]
+}
