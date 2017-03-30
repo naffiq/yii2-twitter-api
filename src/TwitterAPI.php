@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: naffiq
- * Date: 3/30/17
- * Time: 6:11 PM
- */
-
 namespace naffiq\twitterapi;
 
 use yii\base\Component;
