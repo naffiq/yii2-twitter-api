@@ -24,6 +24,7 @@ return [
     'components' => [
         // Other components ...
         'twitter' => [
+            'class' => 'naffiq\twitterapi\TwitterAPI',
             'oauthAccessToken' => 'YOUR_OAUTH_ACCESS_TOKEN',
             'oauthAccessTokenSecret' => 'YOUR_OAUTH_ACCESS_TOKEN',
             'consumerKey' => 'YOUR_CONSUMER_KEY',
